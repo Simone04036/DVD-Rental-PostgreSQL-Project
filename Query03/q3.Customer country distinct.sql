@@ -1,3 +1,4 @@
+--Customer country distinct
 SELECT DISTINCT co.country
 FROM country co
 JOIN city ci ON co.country_id = ci.country_id

@@ -1,3 +1,4 @@
+--film never be rental with actor_name
 SELECT f.film_id, f.title, STRING_AGG(CONCAT(a.first_name, ' ', a.last_name), ', ') as actor_names
 FROM film f
 JOIN film_actor fa ON f.film_id = fa.film_id

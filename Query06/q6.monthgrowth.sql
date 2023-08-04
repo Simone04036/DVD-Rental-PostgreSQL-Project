@@ -1,3 +1,4 @@
+--What's the month-over-month growth rate in DVD rental revenue?
 WITH monthly_revenue AS (
   SELECT DATE_TRUNC('month', rental_date) as month,
          SUM(amount) as revenue

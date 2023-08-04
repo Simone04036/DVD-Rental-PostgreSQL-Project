@@ -1,3 +1,4 @@
+--film popularity
 SELECT f.film_id, 
        f.title, 
        COUNT(r.rental_id) AS rental_count,

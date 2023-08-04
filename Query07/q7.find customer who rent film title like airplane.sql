@@ -1,3 +1,4 @@
+--Find customer who rent film title like airplane
 SELECT c.customer_id, c.first_name, c.last_name, sub.film_title
 FROM customer c
 JOIN (
